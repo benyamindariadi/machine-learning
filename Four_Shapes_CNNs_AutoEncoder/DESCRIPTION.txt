@@ -1,0 +1,11 @@
+DATASET
+LINK:https://www.kaggle.com/smeschke/four-shapes
+
+This dataset contains 16,000 images of four shapes; square, star, circle, and triangle. Each image is 200x200 pixels.
+
+The data was collected using a Garmin Virb 1080p action camera. The shapes were cut from poster board, and then painted green. I held each shape in view of the camera for two minutes. While the camera was recording the shape, I moved the shape around and rotated it.
+
+The four videos were then processed using OpenCV in Python. Using colorspaces, the green shape is cropped out of the image and resized to 200x200 pixels. The data is arranged into four folders; square, circle, triangle, and star. The images are labeled 0.png, 1.png, etc…
+
+MY WORK
+I made two models with this dataset. First, I made the image classifier using CNNs. Second, I made denoiser image using AutoEncoder.  
