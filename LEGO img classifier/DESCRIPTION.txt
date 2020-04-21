@@ -1,0 +1,22 @@
+DATASET
+LINK:https://www.kaggle.com/joosthazelzet/lego-brick-images
+
+Context
+I was looking for a good dataset for learning and research purposes. Lego bricks are nice to use to create a recognition model. At first thought I did some experimentation to photograph bricks from different angles but this was time consuming. That is why I turned to computer rendering of the bricks. I rendered a first version of dataset in 2018 using Blender, but decided to create a new version in 2019 using Autodesk Maya 2020.
+
+Content
+In the version 2 dataset, you will find 50 different LEGO bricks rendered by 800 different angles. I have documented step by step how the dataset was created in notebook How to create a LEGO bricks dataset using Maya.
+
+Please take notice of the notebook why I used a 2 camera setup. They way I see it you have 2 options:
+
+Ignore the 2 camera setup and treat all images a one set. This should be fine and easiest way to proceed
+Use the extra left/right information to score a little higher.
+Acknowledgements
+I used the Autodesk Maya 30 days trial version. Mecabricks.com is a free online Lego modeling tool. And LEGO for creating their ecosystem.
+
+Inspiration
+I hope you can take advantage of this simple set in your learning or research. Enjoy!
+
+
+MY WORK:
+I tried to make ML model using CNNs to categorize the type of LEGO. I used image generator in my model because the complete dataset is too large to be processed in my personal computer. I used 12 classes (12 types of LEGO) in this project
