@@ -1,6 +1,0 @@
-DATASET
-
-I take the dataset from Four Shapes file. The dataset is same, but I only use one file to obtain one single shape which is star.
-
-MY WORK
-I made the model to generate "fake" stars images. The model use DC-GANs method to optimize the variety of the result.
