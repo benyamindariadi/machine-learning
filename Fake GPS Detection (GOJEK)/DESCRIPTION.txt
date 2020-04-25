@@ -1,0 +1,25 @@
+DATASET
+LINK:https://www.kaggle.com/c/dsbootcamp10/data
+
+Among our drivers, there are drivers who use Fake GPS application to mock their location. This FGPS usage is unfair for other GOJEK drivers who work honestly. Hence, we would like to apply a machine learning model to classify whether a trip is being done using fake GPS or not based on their PING behavior.
+
+Brief Description
+You are provided with an anonymized dataset of drivers PING signals containing numeric feature variables, the binary target column, and a string order_id column.
+
+The task is to predict the value of the label column in the test set.
+
+Data fields
+order_id - an anonymous id unique to a given order number
+service_type - service type, can be GORIDE or GOFOOD
+driver_status - status of the driver PING, can be AVAILABLE, UNAVAILABLE, OTW_PICKUP, OTW_DROPOFF
+hour - hour
+seconds - seconds in linux format
+latitude - GPS latitude
+longitude - GPS longitude
+altitude_in_meters - GPS Altitude
+accuracy_in_meters - GPS Accuracy, the smaller the more accurate
+
+MY WORK:
+
+I made models to predict class. 
+The dataset consists of the order_id which is the unique key. Each order id consists of many data rows representing pings which will give 8 different informations (columns). So the 'usefull' informations (data) must be extracted from the pings on each order id. Data extracting dan preparation will located on df_train_cleaning.ipynb, and the cleaned datased saved on clean_df_train.csv. The ML's model performances will provide on MLs.ipynb. 
