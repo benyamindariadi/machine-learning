@@ -7,4 +7,4 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 - Ready Model for Deployment (Decision Tree).ipynb : Berisi pemodelan final yang akan digunakan untuk deployment.
 
 
-Hasil deployment berupa online app yang dapat dilihat di: https://bank-marketing-app.herokuapp.com/
+Hasil deployment berupa online web app yang dapat dilihat di: https://bank-marketing-app.herokuapp.com/
