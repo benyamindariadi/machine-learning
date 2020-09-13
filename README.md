@@ -90,6 +90,13 @@ What things you need to use it
 - **Project:** Predict whether tomorrow will be rain or not. I build this model with **PyCaret** library.
 - **Dataset:** [Source.](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
 
+### 9. [Fake News Classification](https://github.com/benyamindariadi/machine-learning/tree/master/fake-news-classification)
+
+- **Context:** This project uses a csv based fake news datasets
+- **Project:** Classify whether the input is fake news or not.
+- **Algorithm:** LSTM.
+- **Dataset:** [Source.](https://www.datacamp.com/community/tutorials/scikit-learn-fake-news)
+
 ## Forecasting
 
 ### 1. [Hotel Booking Demand](https://github.com/benyamindariadi/machine-learning/tree/master/hotel-booking-demand)
@@ -98,6 +105,13 @@ What things you need to use it
 - **Project:** Predict the number of booking.
 - **Algorithm:** Recurrent Neural Networks (LSTM).
 - **Dataset:** [Source.](https://www.kaggle.com/jessemostipak/hotel-booking-demand)
+
+### 2. [Web Traffic Forecasting](https://github.com/benyamindariadi/machine-learning/tree/master/web-traffic-timeseries)
+
+- **Context:** This data set contains web traffic time series in median of 7h, 28h ,and etc.
+- **Project:** Predict the number of Web traffic.
+- **Algorithm:** Recurrent Neural Networks (LSTM).
+- **Dataset:** [Source.](https://www.kaggle.com/ymlai87416/wiktraffictimeseriesforecas)
 
 ## Image
 
@@ -111,7 +125,7 @@ What things you need to use it
 ### 2. [Four Shapes (Square, Star, Circle, and Triangle)](https://github.com/benyamindariadi/machine-learning/tree/master/Four_Shapes_CNNs_AutoEncoder)
 
 - **Context:** This dataset contains 16,000 images of four shapes; square, star, circle, and triangle. Each image is 200x200 pixels.
-- **Project:** 
+- **Project:**
   - Build image classifier model using CNNs.
   - Build denoiser image using AutoEncoder.  
 - **Algorithms:** Convolutional Neural Networks, Artificial Neural Networks.
@@ -122,6 +136,22 @@ What things you need to use it
 - **Context:** I take the dataset from Four Shapes file. The dataset is same, but I only use one file to obtain one single shape which is star.
 - **Project:** I made the model to generate "fake" stars images. The model use DC-GANs method to optimize the variety of the result.
 - **Algorithm:** Deep Convolutional-Generative Adversarial Network.
+- **Dataset:** [Source.](https://www.kaggle.com/smeschke/four-shapes)
+
+### 4. [Rock Paper Scissors Classification](https://github.com/benyamindariadi/machine-learning/tree/master/rock-paper-scissor-classification)
+
+- **Context:** This data set contain datasets of human hand in shape of rock, paper and scissor
+- **Project:** Classify whether the input image is rock, paper, or scissor.
+- **Algorithm:** CNN.
+- **Dataset:** [Source.](https://www.kaggle.com/drgfreeman/rockpaperscissors)
+
+### 5. [Shape Classification (Square, Star, Circle, and Triangle)](https://github.com/benyamindariadi/machine-learning/tree/master/shape-classification)
+
+- **Context:** This project almost the same as the Four shapes project, but there is an addition to convert the model into tensorflow lite
+- **Project:**
+  - Build image classifier model using CNNs.
+  - Convert the model into Tensorflow Lite, so it can be attached to mobile app.
+- **Algorithms:** Convolutional Neural Networks
 - **Dataset:** [Source.](https://www.kaggle.com/smeschke/four-shapes)
 
 ## ComputerVision
