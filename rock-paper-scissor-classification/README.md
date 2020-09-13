@@ -14,3 +14,7 @@ Matplotlib
 Numpy
 
 ```
+
+## Acknowledgment
+
+* Thanks for all of the contributions to this project
