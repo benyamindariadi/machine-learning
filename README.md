@@ -113,6 +113,13 @@ What things you need to use it
 - **Algorithm:** Recurrent Neural Networks (LSTM).
 - **Dataset:** [Source.](https://www.kaggle.com/ymlai87416/wiktraffictimeseriesforecas)
 
+### 3. [Stock Forecasting](https://github.com/benyamindariadi/machine-learning/tree/master/stock-prediction)
+
+- **Context:** This project consumes data from Alpha Vantage API
+- **Project:** Predict the stock in the next a couple of days.
+- **Algorithm:** Recurrent Neural Networks (LSTM).
+- **Dataset:** [Source.](https://www.alphavantage.co/)
+
 ## Image
 
 ### 1. [LEGO images Classifier](https://github.com/benyamindariadi/machine-learning/tree/master/LEGO%20img%20classifier)
