@@ -1,3 +1,5 @@
 # List of Contributors
 
-[rainoverme002](https://github.com/rainoverme002)
+[Benyamin Dariadi](https://github.com/benyamindariadi)
+
+[I Gusto Bagus A](https://github.com/rainoverme002)

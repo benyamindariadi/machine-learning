@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-First of all, We should say thank you to [Benyamin Dariadi](https://github.com/benyamindariadi/machine-learning). With a lot of his effort during Pandemic, He can create this repository and spread the knowledge about machine learning.
+First of all, We should say thank you to [Benyamin Dariadi](https://github.com/benyamindariadi). With a lot of his effort during Pandemic, He can create this repository and spread the knowledge about machine learning.
 
-I only tried to revamp his repository. So in the future we can take a look this repository for learning purposes
+Also other contributors that tried to revamp his repository and add some of their works. So in the future we can take a look this repository for learning purposes.
 
 ## Prerequisites
 
@@ -16,6 +16,7 @@ What things you need to use it
 ```
 
 ---
+
 ## Contents
 
 - [Classification](#classification) - Projects related to datasets that have the purpose of predicting a state or class
@@ -162,13 +163,13 @@ What things you need to use it
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/rainoverme002/sonos-project) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Author
-
-[Benyamin Dariadi](https://github.com/benyamindariadi/machine-learning)
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Contributors
+
+[Benyamin Dariadi](https://github.com/benyamindariadi)
+
+[I Gusti Bagus A](https://github.com/rainoverme002)
 
 See also the list of [contributors](CONTRIBUTORS.md) who participated in this project.
 
